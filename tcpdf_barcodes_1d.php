@@ -1842,7 +1842,7 @@ class TCPDFBarcode {
 		$k = 0;
 		$w = 0;
 		$seq = '';
-		$code = 'A'.strtoupper($code).'A';
+		$code = strtoupper($code);
 		$len = strlen($code);
 		for ($i = 0; $i < $len; ++$i) {
 			if (!isset($chr[$code[$i]])) {
