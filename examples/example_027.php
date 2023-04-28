@@ -237,7 +237,7 @@ $pdf->Ln();
 
 // CODABAR
 $pdf->Cell(0, 0, 'CODABAR', 0, 1);
-$pdf->write1DBarcode('123456789', 'CODABAR', '', '', '', 18, 0.4, $style, 'N');
+$pdf->write1DBarcode('C123456789D', 'CODABAR', '', '', '', 18, 0.4, $style, 'N');
 
 $pdf->Ln();
 
